@@ -1,0 +1,11 @@
+#nombre {
+  float: left;
+  position: relative;
+}
+#nombre h1{
+  font-size: 100px;
+  font-family: "Gill Sans MT", sans-serif;
+  margin-left: 30%;
+  color: white;
+  text-shadow: 0 0 5px 5px #000000;
+}
