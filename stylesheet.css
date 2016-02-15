@@ -1,11 +1,18 @@
+body{
+  background-color: #69a748
+}
+div{
+  width: 1000px
+}
+
 #nombre {
   float: left;
   position: relative;
 }
 #nombre h1{
-  font-size: 100px;
+  font-size: 50px;
   font-family: "Gill Sans MT", sans-serif;
   margin-left: 30%;
   color: white;
-  text-shadow: 0 0 5px 5px #000000;
+  text-shadow: 0 0 5px 5px #5e5e5e;
 }
