@@ -2,17 +2,26 @@ body{
   background-color: #69a748
 }
 div{
-  width: 1000px
+  width: 100%;
+  height: 50%;
 }
 
 #nombre {
   float: left;
   position: relative;
+  margin-left: 0%;
 }
 #nombre h1{
   font-size: 50px;
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-left: 30%;
   color: white;
-  text-shadow: 0 0 5px 5px #5e5e5e;
+  letter-spacing: 5px;
+  text-align: inherit;
+}
+#social{
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 50%;
 }
