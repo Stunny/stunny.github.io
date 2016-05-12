@@ -1,0 +1,112 @@
+/*General*/
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+div{
+  display: block;
+}
+a:visited{
+  text-decoration: none;
+}
+/* Barra lateral */
+.lateral{
+  background-color: #ff8a65;
+  bottom: 0;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 30%;
+}
+
+/*Perfil*/
+.perfil__circulo{
+  margin: 0;
+  border-radius: 50%;
+  height: 7em;
+  overflow: hidden;
+  width: 7em;
+}
+.perfil__fotografia{
+  width: 100%;
+}
+.perfil__nombre{
+  color: white;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-size: 1.5em;
+  margin-left: 1em;
+  width: auto;
+}
+.perfil__nombre:hover{
+  color: #ef5350;
+  transition: .45s;
+}
+.perfil__nombre, .perfil__circulo{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+/*Informacion*/
+.informacion{
+  color: white;
+  display: block;
+  margin-right: 1.5em;
+  position: absolute;
+  bottom: 1em;
+  text-align: justify;
+}
+.informacion__wrapper{
+  height: 100%;
+  width: 100%;
+}
+.informacion__titulo{
+  font-size: 1.1em;
+}
+
+/*Redes Sociales*/
+.informacion__redes{
+  padding: 0;
+}
+.redes__wrapper{
+  height: 3em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.red{
+  display: inline-block;
+  font-size: 3em;
+}
+.red__link__wrapper{
+  height: 1em;
+  margin: 15px;
+  padding: .15em;
+  width: 1em;
+}
+.red__link i{
+  color: white;
+}
+.red__link i:hover{
+  color: #ef5350;
+  font-size: 1.1em;
+  transition: .2s;
+}
+.red__link{
+  color: white;
+}
+.red__link:visited{
+  color: white;
+}
+
+/*Contenido de la pagina*/
+.contenido{
+  padding: 1em;
+  right: 0;
+  width: 70%;
+}
